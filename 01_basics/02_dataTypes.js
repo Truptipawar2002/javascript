@@ -7,19 +7,24 @@ console.log("Happy")
 let name = "happiness"
 let age = 21
 let isLoggedIn = false
-let state;
+
+let state = null //null => standalone value 
+let statel; // undefined 
 
 //number => 2 to power 53
 //bigint 
 //string => ""
 //boolean => true/false
 //null => standalone value 
-// undefines => 
-// symbol => unique 
+// undefined => 
+// symbol => to make unique value 
 
 // object
 
 console.log(typeof "happiness");
+console.log(typeof age);
+console.log(typeof null); //null is an object
+console.log(typeof undefined); //undefined
 
 
 
