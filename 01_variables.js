@@ -7,7 +7,7 @@ let accountState = "Maharashtra";
 // accountId = 2 # This is wrong, you can't reassign or change value of a const variable
 // TypeError: Assignment to constant variable. #  Try to read and understand errors, you will find it their most probably
 
-accountEmai = "hr@hc.com"
+accountEmai = "hr@gmail,com"
 accountPassword = "212121"
 accountCity = "Bengaluru"
 
