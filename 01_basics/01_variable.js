@@ -8,7 +8,7 @@ let accountState = "Maharashtra";
 // TypeError: Assignment to constant variable. #  Try to read and understand errors, you will find it their most probably
 
 accountEmai = "hr@gmail,com"
-accountPassword = "212121"
+accountPassword = "21211"
 accountCity = "Bengaluru"
 
 
