@@ -1,0 +1,42 @@
+// # Primitive DataTypes
+
+// 7 Types : String, Number, Boolean, null, undefined, Symbol, BigInt
+
+const score = 100
+const scoreValue = 100.3
+
+const isLoggedIn = false
+const outsideTemp = null
+let unserEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+//both "2211" are not same for id and anotherId since it is a Symbol
+console.log(id === anotherId);
+
+const bigNumber = 12354657686668966979n  //n is represent bigInteger
+
+
+// Reference Type (Non Primitive)
+
+// Array, Objects, Functions
+
+//Array
+const heros = ["shaktiman", "naagaraj", "doga"];
+ 
+//object
+let myobj = {
+    name : "harsh",
+    age : 54 ,
+}
+
+const my = function (){
+    console.log("hello");
+}
+
+//typeOf
+console.log(myobj.age);
+console.log(typeof anotherId);
+
+
