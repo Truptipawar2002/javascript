@@ -30,7 +30,7 @@ console.log(newString1.trim());
 
  const url = "https://tripzz.com/trip%10p"
 
- console.log(url.replace('%10','-'))
+ console.log(url.replace('%10','*'))
 
  console.log(url.includes('trip'))
 
