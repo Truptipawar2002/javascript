@@ -13,21 +13,18 @@
 </body>
 <script>
     const sayTrupti = function () {
-        console.log("Trupti")
+        console.log("Trupti");
     }
-
-    const changeText = function(){
-        document.querySelector('h1').innerHTML = 'Best js Series'
+    const changeText = function () {
+        document.querySelector('h1').
+        innerHTML = "best js series ever"
     }
-
-    
-    const changeMe = setTimeout(changeText, 2000)
-
-   document.querySelector('#stop').addEventListener('click', function(){
-              clearTimeout(changeMe)
-              console.log("STOPPED")
-   })
-
+   const changeMe = setTimeout(changeText, 2000)
+//    clearTimeout(changeMe)
+    document.querySelector('#stop').addEventListener('click', function (){
+        clearTimeout(changeMe)
+        console.log("stopped")
+    })
 
 </script>
 
